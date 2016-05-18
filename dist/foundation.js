@@ -3656,7 +3656,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.counter = 4;
           this.usedPositions.length = 0;
         }
-        this.$element.trigger('hide.zf.dropdown', [this.$element]);
+        //this.$element.trigger('hide.zf.dropdown', [this.$element]);
       }
 
       /**
@@ -4098,7 +4098,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
            * Fires when the open menus are closed.
            * @event DropdownMenu#hide
            */
-          this.$element.trigger('hide.zf.dropdownmenu', [$toClose]);
+          //this.$element.trigger('hide.zf.dropdownmenu', [$toClose]);
         }
       }
 
