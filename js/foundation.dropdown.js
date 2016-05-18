@@ -318,7 +318,8 @@ class Dropdown {
       this.counter = 4;
       this.usedPositions.length = 0;
     }
-    this.$element.trigger('hide.zf.dropdown', [this.$element]);
+    //Gulty: Matias Nombarasco -- Fixing conflict with prototype js... 
+    //this.$element.trigger('hide.zf.dropdown', [this.$element]);
   }
 
   /**
