@@ -313,8 +313,9 @@ class DropdownMenu {
       /**
        * Fires when the open menus are closed.
        * @event DropdownMenu#hide
+       * KR: Commenting out to avoid conflict with PrototypeJS
        */
-      this.$element.trigger('hide.zf.dropdownmenu', [$toClose]);
+      //this.$element.trigger('hide.zf.dropdownmenu', [$toClose]);
     }
   }
 
